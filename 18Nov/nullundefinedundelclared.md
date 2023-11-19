@@ -16,3 +16,11 @@ checking the undefined you can use (typeOf)
 
 
 console.log(typeOf bar)
+
+
+check for undefined like 
+console.log(foo === undefined)
+
+
+checking for null 
+console.log(foo === null)

@@ -1,5 +1,6 @@
 /* 
-so this question is about the Fabinacci numbers which is an array of numbers it is also called fabinaci series 
+so this question is about the Fabinacci numbers which
+ is an array of numbers it is also called fabinaci series 
 
 => 0,1,1,2,3,5,8,13,21,34,.....
 so each number is sum of the previous number 

@@ -1,5 +1,7 @@
 /* 
-in this question we have 2 sum like we have an array of numbers and we have target which is the sum of 2 numbers existing in the array
+in this question we have 2 sum like we have an array of 
+numbers and we have target which is the sum of 2 numbers 
+existing in the array
 
 */
 
