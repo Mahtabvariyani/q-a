@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Closure Example</title>
+    <h2>
+      in clousers and useState both are maintaining the state but the main
+      diffrence is that closures are not having only small task like useState in
+      react they have a bigger and more general topics in JAvaSCript but when we
+      compare they have a small similarity
+    </h2>
+  </head>
+  <body>
+    <button id="counterButton">Click me!</button>
+    <p id="counterDisplay">Counter: 0</p>
+
+    <script>
+      // Function that creates a closure to remember the count
+      function createCounter() {
+        let count = 0; // This variable is captured by the closure
+
+        return function () {
+          count++; // Increment the count
+          document.getElementById("counterDisplay").innerText =
+            "Counter: " + count;
+        };
+      }
+
+      // Create a closure for the button click
+      const incrementCounter = createCounter();
+
+      // Attach the closure to the button click event
+      document
+        .getElementById("counterButton")
+        .addEventListener("click", incrementCounter);
+
+      //_________
+      //what is closures?
+
+      //closure is simply when two functions are nested together ...
+      function init() {
+        var name = "Mozilla";
+        function displayName() {
+          console.log(name);
+        }
+        displayName();
+      }
+      init();
+    </script>
+  </body>
+</html>

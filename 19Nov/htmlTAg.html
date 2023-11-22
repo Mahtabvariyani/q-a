@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="background-color: pink" contenteditable="true">
+      This content can be edited.
+    </div>
+    <br />
+    <hr />
+    <textarea spellcheck="true">
+        This textarea has spell-checking enabled.
+    </textarea>
+    <hr />
+    <!-- <img src="https://plus.unsplash.com/premium_photo-1676637000058-96549206fe71?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" draggable="true" alt="Draggable Image"> -->
+    <iframe
+      src="sandboxed-page.html"
+      sandbox="allow-same-origin allow-scripts"
+    ></iframe>
+    <hr />
+    <a href="document.pdf" download="my-document">Download PDF</a>
+
+    <hr />
+    <div style="background-color: lightblue">
+      <p hidden>This paragraph is initially hidden.</p>
+    </div>
+
+    <hr />
+
+    <div>
+      <h4>
+        defer Element: will make sure that the Script runs after the elements
+        <br />
+        async is Exactly opposite it makes sure that the Script runs asyncrncly
+      </h4>
+      <script defer src="myscript.js"></script>
+    </div>
+    <hr />
+
+    <div>
+      <label for="">Accept Atribut</label>
+      <input type="file" accept=".jpg, .jpeg, .png" />
+    </div>
+
+    <div style="background-color: lightcyan">
+      <p translate="no">This content should not be translated.</p>
+      this makes sure if a content will be translated or not if the website is
+      loclized
+    </div>
+    <hr>
+  </body>
+</html>
